@@ -1,8 +1,31 @@
 aid: homa-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/homa-games.png
 name: Homa Games
-description: 'Homa Games is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Homa Games is a global mobile game developer and publisher headquartered in
+  Paris, France, and backed by Northzone. Through its Homa Lab platform the
+  company pairs data-driven tooling with creative expertise to help studios
+  build commercially successful hyper-casual and hybrid-casual games, having
+  worked with more than 1,000 studios to ship 80+ titles that have surpassed one
+  billion downloads. Its developer surface centers on the Homa SDK (Homa Belly),
+  a no-code Unity meta-SDK that bundles user consent, analytics, ad mediation,
+  attribution and A/B ("N-testing") tooling, alongside Homa Lab modules for
+  market watching, ideation, creative testing, analytics and the Homa Academy.
+  Added to the API Evangelist network as a Northzone portfolio company and
+  enriched here with its published developer-surface link properties and a
+  domain-security profile; Homa exposes an SDK and developer platform rather
+  than a public REST API.
 url: https://raw.githubusercontent.com/api-evangelist/homa-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Game Development
+- SDK
+- Unity
+- Publishing
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/homa-games-domain-security.yml
 - type: Website
   url: https://www.homagames.com
+- type: DeveloperPortal
+  url: https://www.homagames.com/homa-lab
+- type: Documentation
+  url: https://sdk.homagames.com/docs/legacy/homa-belly-settings/main.html
+- type: GettingStarted
+  url: https://www.homagames.com/homa-lab/homa-sdk
+- type: SDKs
+  url: packages/homa-games-packages.yml
+- type: Packages
+  url: packages/homa-games-packages.yml
+- type: Support
+  url: https://support.homagames.com/knowledge/homa-belly-sdk
+- type: Blog
+  url: https://www.homagames.com/blog
+- type: GitHubOrganization
+  url: https://github.com/homagames
+- type: SignUp
+  url: https://lab-v2.homagames.com/registration
+- type: Login
+  url: https://lab-v2.homagames.com/login
+- type: TermsOfService
+  url: https://www.homagames.com/terms
+- type: PrivacyPolicy
+  url: https://www.homagames.com/privacy-policy
+- type: LLMsTxt
+  url: llms/homa-games-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: derived
+source: https://www.homagames.com/homa-lab/homa-sdk
+notes: >-
+  Homa distributes a first-party Unity meta-SDK ("Homa Belly") through its own
+  Homa Lab platform and SDK docs rather than a public package registry (npm /
+  PyPI / Maven / NuGet were probed and carry no first-party Homa client library).
+  This entry is derived from the published SDK product + documentation pages.
+packages:
+  - language: csharp
+    platform: unity
+    registry: custom
+    name: Homa Belly (Homa SDK)
+    url: https://sdk.homagames.com/docs/legacy/homa-belly-settings/main.html
+    install: Imported via the Homa Lab platform into Unity Project Settings (HOMA section)
+    official: true
+    description: >-
+      No-code Unity meta-SDK bundling user consent, analytics, ad mediation,
+      attribution and A/B ("N-testing") tooling for mobile game developers.

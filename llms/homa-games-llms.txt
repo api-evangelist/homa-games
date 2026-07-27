@@ -1,0 +1,29 @@
+# Homa Games
+
+> Homa is a global mobile game developer and publisher (Paris, France) whose Homa Lab platform pairs data-driven tooling with creative expertise to help studios ship commercially successful hyper-casual and hybrid-casual games. Its developer surface centers on the Homa SDK (Homa Belly), a no-code Unity meta-SDK. Homa exposes an SDK and developer platform rather than a public REST API.
+
+## Developer Platform
+- [Homa Lab](https://www.homagames.com/homa-lab): Data-driven game development platform (Ideas, Market Watcher, Homa SDK, Data Analytics, Submissions & Creatives, Homa Academy).
+- [Homa SDK (Homa Belly)](https://www.homagames.com/homa-lab/homa-sdk): No-code Unity meta-SDK for consent, analytics, mediation, attribution and A/B ("N-testing").
+- [Homa Lab Login](https://lab-v2.homagames.com/login)
+- [Homa Lab Registration](https://lab-v2.homagames.com/registration)
+
+## Documentation
+- [Homa SDK Documentation](https://sdk.homagames.com/docs/legacy/homa-belly-settings/main.html): Homa Belly SDK settings and integration reference.
+- [Homa Belly SDK Knowledge Base](https://support.homagames.com/knowledge/homa-belly-sdk): Integration guides and support articles.
+- [FAQs](https://www.homagames.com/faqs)
+
+## Source Code
+- [Homa GitHub Organization](https://github.com/homagames): Unity tooling and libraries (game-doctor, homa-studio, exporters, helm-charts).
+
+## Company
+- [About](https://www.homagames.com/about)
+- [Blog](https://www.homagames.com/blog)
+- [Careers](https://www.homagames.com/careers)
+- [Games](https://www.homagames.com/games)
+
+## Legal
+- [Terms & Conditions](https://www.homagames.com/terms)
+- [Privacy Policy](https://www.homagames.com/privacy-policy)
+- [End User License Agreement](https://www.homagames.com/end-user-license-agreement)
+- [Cookies Policy](https://www.homagames.com/cookies-policy)
